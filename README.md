@@ -41,27 +41,7 @@ import 和 require 的异同点
 
 
 
-### Flux(和MVC不同的设计思想)
-
-<img src="./img/flux.jpeg" />
-
-Store： 整个程序的状态中心（存储各个勾选框是否勾选，当前显示的页面是什么页面）
-
-React View： View层，根据Store中的状态显示当前界面样式(如：Store中存储现在显示第二页，View根据这个状态显示第二页)
-
-Action Creators： 逻辑层，根据用户点击处理逻辑，并发出对Store状态变化的请求。（如：用户下拉加载更多，发起网络更新数据，并根据获取到的数据，发出需要对Store新增数据的请求）
-
-Dispatcher： 根据Action发来的修改请求，修改Store的数据，并由Store触发View的自动刷新
-
-
-
-Flux的数据流向单一，不会出现A点击改变B状态，B点击后又修改C状态，又提交数据，这种复杂情况。所有事件统一用Action的方式修改Store，再由Store统一修改界面显示。
-
-
-
-参考文档
-
-http://www.ruanyifeng.com/blog/2016/01/flux.html
+### [Flux(和MVC不同的设计思想)](Flux.md)
 
 
 
@@ -92,38 +72,16 @@ https://github.com/sorrycc/blog/issues/18
 
 
 
-### react-router 被蚂蚁金服封装在内的页面跳转类库
+### [react-router](react-router.md)
 
-版本号和使用方法跟随dva引用的版本，目前版本2.8.1
-
-文档地址： https://github.com/ReactTraining/react-router/tree/v2.8.1
-
-API文档地址： https://github.com/ReactTraining/react-router/blob/v2.8.1/docs/API.md
-
-API中文地址（需要参考英文文档）： http://react-guide.github.io/react-router-cn/index.html
-
-
-
-[Route 相互嵌套情况界面会被嵌套显示](https://github.com/reactjs/react-router-tutorial/blob/master/lessons/04-nested-routes/README.md)
-
-匹配优先级
-
-[带参地址的匹配方法](https://github.com/reactjs/react-router-tutorial/blob/master/lessons/06-params/README.md)
-
-[页面跳转标签 Link](https://github.com/reactjs/react-router-tutorial/blob/master/lessons/03-navigating-with-link/README.md)
-
-[URL重定向](https://github.com/ReactTraining/react-router/blob/v2.8.1/docs/API.md#redirect)
-
-[IndexRoute 的使用](https://github.com/reactjs/react-router-tutorial/blob/master/lessons/08-index-routes/README.md)
-
-[用代码进行页面跳转](https://github.com/ReactTraining/react-router/blob/v2.8.1/docs/API.md#routercontext)
+被蚂蚁金服封装在内的页面跳转类库
 
 
 
 ```
 根据 ant 的使用方法新建demo工程，需要完成以下功能：
 1. 新建页面，实现点击按钮计数器加1、减1、清空功能，需要使用redux实现
-2. 新建页面，实现获取首页源码字符串，并在首页显示的功能
+2. 新建页面，实现获取测试工程首页源码字符串，并在当前页面中显示源码
 3. 以上页面的点击按钮和相关界面，使用ant类库提供的样式
 ```
 
@@ -167,11 +125,17 @@ float
 
 
 
-### jest
+### [jest](Jest.md)
 
 js单元测试工具
 
-详见jest.md
+
+
+```
+对之前创建的工程编写测试脚本，要求：
+1. 为redux编写测试用例，覆盖：加1、减1、清空、获取测试工程首页源码
+2. 用快照接口(toMatchSnapshot)，分别对以上两个界面编写测试用例
+```
 
 
 

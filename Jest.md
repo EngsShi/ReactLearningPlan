@@ -1,10 +1,6 @@
-http://facebook.github.io/jest/
-
-
-
 ## jest
 
-### jest基础使用方法
+### [jest基础使用方法](http://facebook.github.io/jest/)
 
 
 
