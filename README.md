@@ -1,6 +1,6 @@
 ## 初级内容
 
-### [工具](Tools.md)
+### [开发工具](Tools.md)
 
 
 
@@ -40,8 +40,9 @@ import 和 require 的异同点
 
 
 
+### [Flux](Flux.md)
 
-### [Flux(和MVC不同的设计思想)](Flux.md)
+和MVC不同的设计思想
 
 
 
@@ -68,7 +69,9 @@ https://github.com/sorrycc/blog/issues/18
 
 
 
-### ant.design  蚂蚁金服类库
+### ant.design
+
+蚂蚁金服界面组件库
 
 
 
