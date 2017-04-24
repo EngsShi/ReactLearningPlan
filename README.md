@@ -51,7 +51,9 @@ import 和 require 的异同点
 
 ### Flux(和MVC不同的设计思想)
 
-![Flux](http://cc.cocimg.com/api/uploads/20150928/1443408215742025.jpg)
+```
+<img src="./img/flux.jpg" />
+```
 
 Store： 整个程序的状态中心（存储各个勾选框是否勾选，当前显示的页面是什么页面）
 
