@@ -1,16 +1,12 @@
-[TOC]
-
 ## 初级内容
 
-### 工具
+### [工具](Tools.md)
 
 
 
 ### js基本语法
 
 this绑定的意义
-
-
 
 
 
@@ -28,8 +24,6 @@ yield
 
 
 
-
-
 ### React(View框架)
 
 jsx
@@ -42,8 +36,6 @@ import 和 require 的异同点
 
 1. 页面、组件在jsx中必须首字母大写。只有浏览器自带组件（如：div、a、img）才使用首字母小写。
 2. xxx
-
-
 
 
 
@@ -73,8 +65,6 @@ http://www.ruanyifeng.com/blog/2016/01/flux.html
 
 
 
-
-
 ### Redux(Controller框架)
 
 Redux是Flux设计思想的具体实现，需要先了解Flux
@@ -98,11 +88,7 @@ https://github.com/sorrycc/blog/issues/18
 
 
 
-
-
 ### ant.design  蚂蚁金服类库
-
-
 
 
 
@@ -143,8 +129,6 @@ API中文地址（需要参考英文文档）： http://react-guide.github.io/re
 
 
 
-
-
 ### git基本操作 
 
 安装并会使用 GitHub Desktop
@@ -161,8 +145,6 @@ PR (发起分支合并请求)
 
 
 
-
-
 ### js代码调试方法
 
 js代码中嵌入“debugger”关键字，代码端断点
@@ -170,8 +152,6 @@ js代码中嵌入“debugger”关键字，代码端断点
 浏览器调试模式打断点
 
 js未捕获异常自动断点调试（高级用法：无论是否捕获都自动断点调试）
-
-
 
 
 
@@ -187,15 +167,11 @@ float
 
 
 
-
-
 ### jest
 
 js单元测试工具
 
 详见jest.md
-
-
 
 
 
@@ -215,21 +191,15 @@ Function 和 继承Component的类 生命周期分别是什么情况
 
 
 
-
-
 ### Flow
 
 flow是一套使用注解方式匹配参数和返回值的变量类型
 
 
 
-
-
 ### Redux
 
 哪些界面需要使用 connect ，了解Redux刷新机制，优化界面刷新逻辑
-
-
 
 
 
@@ -241,15 +211,11 @@ https://github.com/reactjs/reselect
 
 
 
-
-
 ### isomorphic-fetch
 
 dva封装的第三方网络库
 
 https://github.com/matthew-andrews/isomorphic-fetch
-
-
 
 
 
