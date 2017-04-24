@@ -2,6 +2,8 @@
 
 ### [jest基础使用方法](http://facebook.github.io/jest/)
 
+[中文说明](http://www.ruanyifeng.com/blog/2016/02/react-testing-tutorial.html)
+
 
 
 ### 查看代码覆盖率
@@ -42,7 +44,7 @@ http://airbnb.io/enzyme/docs/api/shallow.html
 
 ### mount 完整渲染
 
-1. 子节点将会被展开
+1. 子节点将会被展开，并最终返回真实节点
 2. 会模拟DOM节点，并能做模拟操作
 3. 会模拟生命周期相关方法
 
