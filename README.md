@@ -8,6 +8,8 @@
 
 this绑定的意义
 
+import 和 require 的异同点
+
 
 
 ### es5  es6
@@ -27,8 +29,6 @@ yield
 ### React(View框架)
 
 jsx
-
-import 和 require 的异同点
 
 
 
@@ -59,6 +59,10 @@ connect: 绑定Store和View，并且支持对View需要的数据进行筛选
 dispatch: 提交Action给Dispatcher
 
 注册reducer: 接收Action，并修改Store
+
+
+
+配合 [react-addons-update](https://github.com/facebook/react/blob/master/docs/docs/addons-update.md) 插件更新数据，保证变更state时是创建而不是修改，并且优化创建效率
 
 
 
@@ -192,4 +196,5 @@ https://github.com/matthew-andrews/isomorphic-fetch
 2. eslint 语法检测工具，提示代码格式、语法是否正确等
 3. webpack 项目自动打包工具，需要了解代码打包原理和相关配置参数。js拆分和动态加载。
 4. [dva第三方框架选择说明](https://github.com/sorrycc/blog/issues/1)
-5. xx
+5. [autoprefixer](https://github.com/postcss/autoprefixer) 自动生成对应浏览器css样式
+6. [react-move](http://website.c262fc49e10c147f48fbf9c9cb63fe5bc.cn-shanghai.alicontainer.com) react动画库
