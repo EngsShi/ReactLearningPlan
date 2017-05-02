@@ -1,5 +1,13 @@
 # 开发工具
 
+## 显示隐藏文件
+
+命令行执行以下语句
+
+defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
+
+
+
 ## 基本软件
 
 GitHub Desktop

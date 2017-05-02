@@ -66,10 +66,8 @@ dispatch: 提交Action给Dispatcher
 
 
 
-```
-学到这可以尝试跑通dva的example
-https://github.com/sorrycc/blog/issues/18
-```
+> 尝试跑通dva的example
+> https://github.com/sorrycc/blog/issues/18
 
 
 
@@ -85,12 +83,12 @@ https://github.com/sorrycc/blog/issues/18
 
 
 
-```
-根据 ant 的使用方法新建demo工程，需要完成以下功能：
-1. 新建页面，实现点击按钮计数器加1、减1、清空功能，需要使用redux实现
-2. 新建页面，实现获取测试工程首页源码字符串，并在当前页面中显示源码
-3. 以上页面的点击按钮和相关界面，使用ant类库提供的样式
-```
+> 根据 ant 的使用方法新建demo工程，需要完成以下功能：
+>
+> 1. 参考上个example创建新工程
+> 2. 新建页面1，实现点击按钮计数器加1、减1、清空功能，需要使用redux实现
+> 3. 新建页面2，实现获取测试工程首页源码字符串，并在当前页面中显示源码
+> 4. 以上页面的点击按钮和相关界面，使用ant类库提供的样式
 
 
 
@@ -138,11 +136,12 @@ js单元测试工具
 
 
 
-```
-对之前创建的工程编写测试脚本，要求：
-1. 为redux编写测试用例，覆盖：加1、减1、清空、获取测试工程首页源码
-2. 用快照接口(toMatchSnapshot)，分别对以上两个界面编写测试用例
-```
+> 对之前创建的工程编写测试脚本，要求：
+>
+> 1. 为redux方法编写测试用例，覆盖：加1、减1、清空、获取测试工程首页源码。(注：只需要对models中的相关方法进行测试，不需要执行dispatch)
+> 2. 用快照接口(toMatchSnapshot)，分别为 增减界面 和 显示源码页 面编写测试用例
+>
+> 注： 让测试用例支持“imoprt”方法，需要将[.babelrc](./.babelrc)下载到到项目根目录
 
 
 
@@ -198,3 +197,4 @@ https://github.com/matthew-andrews/isomorphic-fetch
 4. [dva第三方框架选择说明](https://github.com/sorrycc/blog/issues/1)
 5. [autoprefixer](https://github.com/postcss/autoprefixer) 自动生成对应浏览器css样式
 6. [react-move](http://website.c262fc49e10c147f48fbf9c9cb63fe5bc.cn-shanghai.alicontainer.com) react动画库
+7. 性能测试工具 [react-addone-perf](https://github.com/facebook/react/blob/master/docs/docs/addons-perf.md) [中文参考](http://wiki.jikexueyuan.com/project/react/performance-tools.html)  
