@@ -6,7 +6,7 @@
 
 ### js基本语法
 
-[this绑定的意义](https://segmentfault.com/a/1190000009215974?utm_source=weekly&utm_medium=email&utm_campaign=email_weekly)
+[this绑定的意义](https://segmentfault.com/a/1190000007101339)
 
 import 和 require 的异同点
 
