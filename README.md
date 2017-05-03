@@ -22,7 +22,7 @@ let const
 解构
 Promise
 await 
-yield
+[yield](http://es6.ruanyifeng.com/#docs/generator#yield--表达式) [处理异步方法使用co库](http://es6.ruanyifeng.com/#docs/generator-async#co-模块) 
 
 
 
