@@ -4,6 +4,12 @@
 
 
 
+### css
+
+[多种居中方法](http://www.xingxin.me/posts/590058affd9e613545f2d1f3) (注意兼容性问题)
+
+
+
 ### js基本语法
 
 [this绑定的意义](https://segmentfault.com/a/1190000007101339)
