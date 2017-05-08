@@ -116,11 +116,9 @@ PR (发起分支合并请求)
 
 ### js代码调试方法
 
-js代码中嵌入“debugger”关键字，代码端断点
+[常用调试方法](http://www.runoob.com/w3cnote/js-debugging-skills.html) (debugger、浏览器调试模式打断点  等)
 
-浏览器调试模式打断点
-
-js未捕获异常自动断点调试（高级用法：无论是否捕获都自动断点调试）
+[未被捕获的异常自动断点](https://developers.google.cn/web/tools/chrome-devtools/console/track-exceptions?hl=zh-cn)（高级用法：无论是否被捕获都自动断点调试）
 
 
 
@@ -162,6 +160,8 @@ js单元测试工具
 Function 和 继承Component的类 生命周期分别是什么情况
 
 了解界面刷新逻辑，如何减少刷新频率缩小需要刷新的界面范围（使用PureComponent 或 重写 shouldComponentUpdate方法）
+
+利用requestAnimationFrame优化操作体验
 
 服务端渲染和SEO(搜索引擎优化)
 
@@ -208,3 +208,5 @@ https://github.com/matthew-andrews/isomorphic-fetch
 5. [autoprefixer](https://github.com/postcss/autoprefixer) 自动生成对应浏览器css样式
 6. [react-move](http://website.c262fc49e10c147f48fbf9c9cb63fe5bc.cn-shanghai.alicontainer.com) react动画库
 7. 性能测试工具 [react-addone-perf](https://github.com/facebook/react/blob/master/docs/docs/addons-perf.md) [中文参考](http://wiki.jikexueyuan.com/project/react/performance-tools.html)  
+8. [几个最流行的React框架](https://hackernoon.com/the-coolest-react-ui-frameworks-for-your-new-react-app-ad699fffd651)
+9. ​
