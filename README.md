@@ -201,12 +201,15 @@ https://github.com/matthew-andrews/isomorphic-fetch
 
 ## 扩展部分（不要求掌握）
 
-1. babel 将高版本语法转译为低版本支持的语法，增加代码兼容性
-2. eslint 语法检测工具，提示代码格式、语法是否正确等
-3. webpack 项目自动打包工具，需要了解代码打包原理和相关配置参数。js拆分和动态加载。
-4. [dva第三方框架选择说明](https://github.com/sorrycc/blog/issues/1)
-5. [autoprefixer](https://github.com/postcss/autoprefixer) 自动生成对应浏览器css样式
-6. [react-move](http://website.c262fc49e10c147f48fbf9c9cb63fe5bc.cn-shanghai.alicontainer.com) react动画库
-7. 性能测试工具 [react-addone-perf](https://github.com/facebook/react/blob/master/docs/docs/addons-perf.md) [中文参考](http://wiki.jikexueyuan.com/project/react/performance-tools.html)  
-8. [几个最流行的React框架](https://hackernoon.com/the-coolest-react-ui-frameworks-for-your-new-react-app-ad699fffd651)
-9. ​
+1. [手机端3种ViewPort的关系](http://www.cnblogs.com/2050/p/3877280.html) ([蚂蚁金服的说明文章](https://github.com/ant-design/ant-design-mobile/wiki/viewport%E8%AF%A6%E8%A7%A3))
+2. babel 将高版本语法转译为低版本支持的语法，增加代码兼容性
+3. eslint 语法检测工具，提示代码格式、语法是否正确等
+4. webpack 项目自动打包工具，需要了解代码打包原理和相关配置参数。js拆分和动态加载。
+5. [dva第三方框架选择说明](https://github.com/sorrycc/blog/issues/1)
+6. [autoprefixer](https://github.com/postcss/autoprefixer) 自动生成对应浏览器css样式
+7. [react-move](http://website.c262fc49e10c147f48fbf9c9cb63fe5bc.cn-shanghai.alicontainer.com) react动画库
+8. 性能测试工具 [react-addone-perf](https://github.com/facebook/react/blob/master/docs/docs/addons-perf.md) [中文参考](http://wiki.jikexueyuan.com/project/react/performance-tools.html)  
+9. [几个最流行的React框架](https://hackernoon.com/the-coolest-react-ui-frameworks-for-your-new-react-app-ad699fffd651)
+10. 16版本新增的[React Fiber](https://segmentfault.com/a/1190000007376242功) [(扩展内容)](https://zhuanlan.zhihu.com/p/26027085) 功能，重构了底层页面刷新方法
+11. 推荐的[项目文件结构](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1)
+12. ​
