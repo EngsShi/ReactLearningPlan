@@ -40,6 +40,12 @@ jest -u
 
 
 
+### css-modules支持jest的配置
+
+https://github.com/justinsisley/Jest-CSS-Modules
+
+
+
 ## [enzyme](http://airbnb.io/enzyme/)
 
 模拟实际环境，生成虚拟节点
