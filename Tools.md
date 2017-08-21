@@ -10,6 +10,8 @@ defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
 
 ## 基本软件
 
+Nodejs
+
 GitHub Desktop
 
 VSCode

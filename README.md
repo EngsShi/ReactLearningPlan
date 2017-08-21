@@ -8,6 +8,10 @@
 
 [多种居中方法](http://www.xingxin.me/posts/590058affd9e613545f2d1f3) (注意兼容性问题)
 
+[flex布局](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html) (注意：仅支持高级浏览器)
+
+[display](http://www.w3cplus.com/css/how-well-do-you-know-display.html) (重点： block,inline-block)
+
 
 
 ### js基本语法
@@ -20,8 +24,11 @@ import 和 require 的异同点
 
 ### es5  es6
 
-http://es6.ruanyifeng.com/ 章节列表上方中文的部分
-(简介、转码器可以不用看)
+[阮一峰的es6入门文章](http://es6.ruanyifeng.com/) (需要看的章节：2-9、11、14-20、24)
+
+[es5版本Array新增方法](http://www.zhangxinxu.com/wordpress/2013/04/es5%E6%96%B0%E5%A2%9E%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95/)
+
+
 
 重点：
 let const
@@ -32,9 +39,29 @@ await
 
 
 
-### React(View框架)
+###Node基础操作
 
-jsx
+命令行执行： node [js文件名]
+
+[package.json配置文件常用参数](http://javascript.ruanyifeng.com/nodejs/packagejson.html)
+
+安装依赖： npm init
+
+添加依赖： npm install xxx
+
+执行脚本： npm run xxx
+
+安装依赖： yarn
+
+添加依赖： yarn add xxx
+
+执行脚本： yarn run xxx
+
+
+
+### React(界面层框架)
+
+jsx语法
 
 
 
@@ -46,9 +73,7 @@ jsx
 
 
 
-### [Flux](Flux.md)
-
-和MVC不同的设计思想
+### [Flux](Flux.md) 设计思想
 
 
 
@@ -77,15 +102,19 @@ dispatch: 提交Action给Dispatcher
 
 
 
-### ant.design
+### [ant.design](https://ant.design)
 
-蚂蚁金服界面组件库
+蚂蚁金服基于React的界面组件库
+
+
+
+注意： 2.x版本仅支持IE10以上，1.x版本兼容IE8
 
 
 
 ### [react-router](react-router.md)
 
-被蚂蚁金服封装在内的页面跳转类库
+第三方页面跳转类库，antd库已内置该类库2.x版本
 
 
 
@@ -102,15 +131,9 @@ dispatch: 提交Action给Dispatcher
 
 安装并会使用 GitHub Desktop
 
-add
+理解branch、remote、add、commit、push、pull、pull request(提交分支合并请求)
 
-commit
-
-push
-
-PR (发起分支合并请求)
-
-冲突解决
+解决代码冲突问题
 
 
 
@@ -119,18 +142,6 @@ PR (发起分支合并请求)
 [常用调试方法](http://www.runoob.com/w3cnote/js-debugging-skills.html) (debugger、浏览器调试模式打断点  等)
 
 [未被捕获的异常自动断点](https://developers.google.cn/web/tools/chrome-devtools/console/track-exceptions?hl=zh-cn)（高级用法：无论是否被捕获都自动断点调试）
-
-
-
-### css 
-
-基本样式
-
-block  inline-block 
-
-flex 
-
-float
 
 
 
@@ -153,8 +164,6 @@ js单元测试工具
 
 ### React
 
-掌握常用 flow 语法（开发时根据注释，动态提示变量类型是否错误。类似eslint）
-
 界面类返回 Function 或 继承 React.Component 的Class 的差异（Class有状态、也有生命周期，但是效率没有Function高。所以Function常见为简单无状态控件）
 
 Function 和 继承Component的类 生命周期分别是什么情况
@@ -163,19 +172,18 @@ Function 和 继承Component的类 生命周期分别是什么情况
 
 利用requestAnimationFrame优化操作体验
 
-服务端渲染和SEO(搜索引擎优化)
 
 
+### [Flow](https://flow.org)
 
-### Flow
-
-flow是一套使用注解方式匹配参数和返回值的变量类型
+用注释方式设置和检测变量类型和方法返回值类型是否正确
 
 
 
 ### Redux
 
-哪些界面需要使用 connect ，了解Redux刷新机制，优化界面刷新逻辑
+1. [redux优化](https://juejin.im/post/596db2f9f265da6c4602ffc3?utm_source=gold-miner&utm_medium=readme&utm_campaign=github)
+2. [数据扁平化操作，提高数据复用率](https://github.com/paularmstrong/normalizr) ([中文教程](https://yq.aliyun.com/articles/3168))
 
 
 
@@ -195,21 +203,52 @@ https://github.com/matthew-andrews/isomorphic-fetch
 
 
 
+### Less
+
+css预处理语言（带变量和参数的css生成脚本）
+
+
+
+### Babel
+
+将高级版本js的方法转换成低级语法的工具。如：foreach、Map、async等高级语法。
+
+需要知道怎么配置和使用Babel，并且了解不同版本js的语法差别。
+
+
+
+###Polyfill
+
+与Babel完成相同功能，但是Babel是将代码编译成低级语法，Polyfill是动态创建和添加高级语法代码到浏览器全局环境。
+
+
+
+###ESLint
+
+js代码规范检测工具，可以配置检测策略。
+
+需要理解并且知道怎么修改ESLint参数。
+
+
+
+
+
 ###[微信小程序](./MiniProgram.md)
+
+
 
 
 
 ## 扩展部分（不要求掌握）
 
 1. [手机端3种ViewPort的关系](http://www.cnblogs.com/2050/p/3877280.html) ([蚂蚁金服的说明文章](https://github.com/ant-design/ant-design-mobile/wiki/viewport%E8%AF%A6%E8%A7%A3))
-2. babel 将高版本语法转译为低版本支持的语法，增加代码兼容性
-3. eslint 语法检测工具，提示代码格式、语法是否正确等
-4. webpack 项目自动打包工具，需要了解代码打包原理和相关配置参数。js拆分和动态加载。
-5. [dva第三方框架选择说明](https://github.com/sorrycc/blog/issues/1)
-6. [autoprefixer](https://github.com/postcss/autoprefixer) 自动生成对应浏览器css样式
-7. [react-move](http://website.c262fc49e10c147f48fbf9c9cb63fe5bc.cn-shanghai.alicontainer.com) react动画库
-8. 性能测试工具 [react-addone-perf](https://github.com/facebook/react/blob/master/docs/docs/addons-perf.md) [中文参考](http://wiki.jikexueyuan.com/project/react/performance-tools.html)  
-9. [几个最流行的React框架](https://hackernoon.com/the-coolest-react-ui-frameworks-for-your-new-react-app-ad699fffd651)
-10. 16版本新增的[React Fiber](https://segmentfault.com/a/1190000007376242功) [(扩展内容)](https://zhuanlan.zhihu.com/p/26027085) 功能，重构了底层页面刷新方法
-11. 推荐的[项目文件结构](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1)
-12. ​
+2. webpack 项目自动打包工具，需要了解代码打包原理和相关配置参数。js拆分和动态加载。
+3. [dva第三方框架选择说明](https://github.com/sorrycc/blog/issues/1)
+4. [autoprefixer](https://github.com/postcss/autoprefixer) 自动生成对应浏览器css样式
+5. [react-move](http://website.c262fc49e10c147f48fbf9c9cb63fe5bc.cn-shanghai.alicontainer.com) react动画库
+6. 性能测试工具 [react-addone-perf](https://github.com/facebook/react/blob/master/docs/docs/addons-perf.md) [中文参考](http://wiki.jikexueyuan.com/project/react/performance-tools.html)  
+7. [几个最流行的React框架](https://hackernoon.com/the-coolest-react-ui-frameworks-for-your-new-react-app-ad699fffd651)
+8. 16版本新增的[React Fiber](https://segmentfault.com/a/1190000007376242功) [(扩展内容)](https://zhuanlan.zhihu.com/p/26027085) 功能，重构了底层页面刷新方法
+9. 推荐的[项目文件结构](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1)
+10. [redux性能优化](https://juejin.im/entry/58eb2fb0570c350057dd921a?utm_source=gold-miner&utm_medium=readme&utm_campaign=github)
+11. 服务端渲染和SEO(搜索引擎优化)
