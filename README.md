@@ -252,3 +252,7 @@ js代码规范检测工具，可以配置检测策略。
 9. 推荐的[项目文件结构](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1)
 10. [redux性能优化](https://juejin.im/entry/58eb2fb0570c350057dd921a?utm_source=gold-miner&utm_medium=readme&utm_campaign=github)
 11. 服务端渲染和SEO(搜索引擎优化)
+12. [css常用布局介绍](https://juejin.im/post/5a22d0086fb9a0451a7631ee)
+13. [移动端兼容问题](https://www.cnblogs.com/luckyXcc/p/6237933.html)
+14. [React应用架构设计指南](https://zhuanlan.zhihu.com/p/32481579?group_id=930373272135118848)
+

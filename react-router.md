@@ -23,3 +23,8 @@ API中文地址（需要参考英文文档）： http://react-guide.github.io/re
 [IndexRoute 的使用](https://github.com/reactjs/react-router-tutorial/blob/master/lessons/08-index-routes/README.md)
 
 [用代码进行页面跳转](https://github.com/ReactTraining/react-router/blob/v2.8.1/docs/API.md#routercontext)
+
+
+
+react-router4 分页加载方案 [1](http://www.jianshu.com/p/697669781276)  [2](https://github.com/thejameskyle/react-loadable)
+
