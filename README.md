@@ -217,13 +217,13 @@ css预处理语言（带变量和参数的css生成脚本）
 
 
 
-###Polyfill
+### Polyfill
 
 与Babel完成相同功能，但是Babel是将代码编译成低级语法，Polyfill是动态创建和添加高级语法代码到浏览器全局环境。
 
 
 
-###ESLint
+### ESLint
 
 js代码规范检测工具，可以配置检测策略。
 
@@ -233,7 +233,7 @@ js代码规范检测工具，可以配置检测策略。
 
 
 
-###[微信小程序](./MiniProgram.md)
+### [微信小程序](./MiniProgram.md)
 
 
 
@@ -255,4 +255,5 @@ js代码规范检测工具，可以配置检测策略。
 12. [css常用布局介绍](https://juejin.im/post/5a22d0086fb9a0451a7631ee)
 13. [移动端兼容问题](https://www.cnblogs.com/luckyXcc/p/6237933.html)
 14. [React应用架构设计指南](https://zhuanlan.zhihu.com/p/32481579?group_id=930373272135118848)
+15. [傻瓜函数式编程](https://github.com/justinyhuang/Functional-Programming-For-The-Rest-of-Us-Cn/blob/master/FunctionalProgrammingForTheRestOfUs.cn.md)
 
