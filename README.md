@@ -6,7 +6,7 @@
 
 ### css
 
-[多种居中方法](http://www.xingxin.me/posts/590058affd9e613545f2d1f3) (注意兼容性问题)
+[多种居中方法](https://www.jianshu.com/p/b0ba06d5dcfb) (注意兼容性问题)
 
 [flex布局](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html) (注意：仅支持高级浏览器)
 
@@ -18,7 +18,7 @@
 
 [this绑定的意义](https://segmentfault.com/a/1190000007101339)
 
-import 和 require 的异同点
+[import 和 require 的异同点](https://www.cnblogs.com/crazycode2/p/11006933.html)
 
 
 
@@ -172,7 +172,9 @@ Function 和 继承Component的类 生命周期分别是什么情况
 
 利用requestAnimationFrame优化操作体验
 
+[Hook](https://react.docschina.org/docs/hooks-intro.html) 是 React 16.8 的新增特性。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性。
 
+[How to fetch data with React Hooks?](https://www.robinwieruch.de/react-hooks-fetch-data)
 
 ### [Flow](https://flow.org)
 
@@ -203,13 +205,13 @@ https://github.com/matthew-andrews/isomorphic-fetch
 
 
 
-### Less
+### [Less](https://less.bootcss.com/)
 
 css预处理语言（带变量和参数的css生成脚本）
 
 
 
-### Babel
+### [Babel](https://www.babeljs.cn/)
 
 将高级版本js的方法转换成低级语法的工具。如：foreach、Map、async等高级语法。
 
@@ -217,13 +219,13 @@ css预处理语言（带变量和参数的css生成脚本）
 
 
 
-### Polyfill
+### [Polyfill](https://blog.csdn.net/qq_42095204/article/details/100065972)
 
 与Babel完成相同功能，但是Babel是将代码编译成低级语法，Polyfill是动态创建和添加高级语法代码到浏览器全局环境。
 
 
 
-### ESLint
+### [ESLint](https://eslint.bootcss.com/)
 
 js代码规范检测工具，可以配置检测策略。
 
