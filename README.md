@@ -145,6 +145,10 @@ dispatch: 提交Action给Dispatcher
 
 
 
+### [TypeScript](https://www.tslang.cn/docs/home.html)
+
+
+
 ### [jest](Jest.md)
 
 js单元测试工具
@@ -157,6 +161,15 @@ js单元测试工具
 > 2. 用快照接口(toMatchSnapshot)，分别为 增减界面 和 显示源码页 面编写测试用例
 >
 > 注： 让测试用例支持“imoprt”方法，需要将[.babelrc](./.babelrc)下载到到项目根目录
+
+
+
+### UmiJs
+
+[英文文档](https://umijs.org/docs)
+
+> 尝试跑通umi的example
+> (https://www.yuque.com/umijs/umi/bmvfg6)
 
 
 
